@@ -1,0 +1,66 @@
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #cc0000;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    padding: 1em;
+  }
+  
+  main{
+    position:relative;
+    top: 100px;
+  
+  }
+  
+  input[type="submit"]{
+    background-color: blue;
+    color: white;
+  }
+  
+  
+  
+  nav{
+    display: flex;
+    column-gap: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  video{
+    padding-left: 50px
+  }
+  
+  
+  form{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    width: 100%;
+  }
+  
+  #footer{
+    position:absolute;
+    bottom: 10px;
+    text-align: center;
+    background-color: yellow;
+    width: 100%;
+    padding: 10px 0; 
+  }
+  
+  
+  @media only screen and (min-width: 1001px) {
+    nav{
+        display: flex;
+        align-items: center;
+        column-gap: 700px;
+      }
+
+
+  }
